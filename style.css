@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  overflow: hidden;
+}
+a{
+  font-family: 'Poppins';
+  text-decoration: none;
+  color: black;
+}
+li{
+  font-family: 'Poppins';
+  list-style: none;
+}
+.logo{
+  width: 8%;
+}
+img{
+  width: 100%;
+}
+
+header{
+  width: 100vw;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1% 13%;
+
+}
+
+
+header div, header div ul{
+  display: flex;
+  align-items: center;
+}
+
+.parent{
+  position: relative;
+}
+
+.submenu{
+  display: none;
+  position: absolute;
+  top: 25px;
+  left: 0;
+  width: 40%;
+  background-color:white;
+}
+
+
+.parent:hover .submenu{
+  display: inline-block;
+}
+.submenu li{
+  width: 100%;
+  margin-top: 25%;
+}
+
+.dropdown{
+width: 35%;
+
+}
+
+.dropdown ul{
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+select{
+  font-family: 'Poppins';
+  border-color: transparent;
+  padding: 2%;
+  background-color: rgba(219, 122, 122, 0.068);
+  border-radius: 50px;
+  -webkit-appearance: none;
+}
+
+select:focus{
+outline: none !important;
+}
+
+.register{
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+.register button{
+  padding: 4% 9%;
+  border-radius: 50px;
+  border: 2px solid rgb(160, 80, 80);
+  color: white;
+}
+
+.daxilOl{
+  background-color: transparent;
+  color: rgb(0, 0, 0) !important;
+}
+
+.qeydiyyat{
+  background-color: rgb(160, 80, 80);
+}
+
+main{
+  height: 100vh;
+  width: 100vw;
+ 
+}
